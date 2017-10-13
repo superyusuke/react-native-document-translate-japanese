@@ -1,13 +1,25 @@
-React Native  
-Learn once, write anywhere: Build mobile apps with React  
-Get StartedLearn the Basics  
-Build native mobile apps using JavaScript and React  
+# React Native
+
+Learn once, write anywhere: Build mobile apps with React
+
+一度学べば、どんなところでもそれを書くことが出来る：モバイル・アプリケーションを React で構築する
+
+Get Started
+
+Learn the Basics
+
+## ネイティブ・モバイル・アプリを JavaScript と React で構築する
+
+_**Build native mobile apps using JavaScript and React**_
+
 React Native lets you build mobile apps using only JavaScript. It uses the same design as React, letting you compose a rich mobile UI from declarative components.
 
+React Native を用いることで、JavaScript だけでモバイル・アプリケーションを構築することができます。React Native は React と同じ構造を使用しており、宣言的に定義した Component を用いて、上質なモバイル UI を構成することができます。
+
+```js
 import React, { Component } from 'react';  
 import { Text, View } from 'react-native';
 
-```js
 class WhyReactNativeIsSoGreat extends Component {
   render() {
     return (
@@ -25,8 +37,13 @@ class WhyReactNativeIsSoGreat extends Component {
 }
 ```
 
-A React Native app is a real mobile app  
+## React Native アプリは、本当の モバイル・アプリケーションです
+
+_**A React Native app is a real mobile app**_
+
 With React Native, you don't build a “mobile web app”, an “HTML5 app”, or a “hybrid app”. You build a real mobile app that's indistinguishable from an app built using Objective-C or Java. React Native uses the same fundamental UI building blocks as regular iOS and Android apps. You just put those building blocks together using JavaScript and React.
+
+React Native で作成するのは「モバイル・ウェブ・アプリ」でも「HTML5 アプリ」でも「ハイブリッド・アプリ」でもありません。作成するのは、Objective-C や Java を用いて作成したアプリケーションと、未分けがつかない、本当のモバイル・アプリです。React Native は、通常の iOS や Android のアプリケーションと同じ基本的な UI ブロックを用います。これらの UI ブロックを JavaScript と React の中に組み込みます。
 
 ```js
 import React, { Component } from 'react';
@@ -56,11 +73,23 @@ class AwkwardScrollingImageWithText extends Component {
 }
 ```
 
-Don't waste time recompiling  
+##  再コンパイルに時間を浪費するのはやめにしましょう
+
+_**Don't waste time recompiling**_
+
 React Native lets you build your app faster. Instead of recompiling, you can reload your app instantly. With Hot Reloading, you can even run new code while retaining your application state. Give it a try - it's a magical experience.
 
-Use native code when you need to  
+React Native を使えば、以前より早くアプリを構築することができます。React Native では、再コンパイルをするのではなく、アプリケーションを即リロードさせることができます。[Hot Reloading](https://facebook.github.io/react-native/blog/2016/03/24/introducing-hot-reloading.html) によって、変更を加えた新しいコードを、アプリケーションの状態を保持したまま、実行することができます。試してみてください。魔法のような体験です。
+
+![](https://media.giphy.com/media/13WZniThXy0hSE/giphy.gif)
+
+## 必要な時にネイティブ・コードを使用することもできます
+
+Use native code when you need to
+
 React Native combines smoothly with components written in Objective-C, Java, or Swift. It's simple to drop down to native code if you need to optimize a few aspects of your application. It's also easy to build part of your app in React Native, and part of your app using native code directly - that's how the Facebook app works.
+
+
 
 ```js
 import React, { Component } from 'react';
