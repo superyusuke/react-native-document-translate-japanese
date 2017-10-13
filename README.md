@@ -73,7 +73,7 @@ class AwkwardScrollingImageWithText extends Component {
 }
 ```
 
-##  再コンパイルに時間を浪費するのはやめにしましょう
+## 再コンパイルに時間を浪費するのはやめにしましょう
 
 _**Don't waste time recompiling**_
 
@@ -89,7 +89,7 @@ Use native code when you need to
 
 React Native combines smoothly with components written in Objective-C, Java, or Swift. It's simple to drop down to native code if you need to optimize a few aspects of your application. It's also easy to build part of your app in React Native, and part of your app using native code directly - that's how the Facebook app works.
 
-
+React Native はスムーズに、Objective-C や Java や Swift で書かれたコンポーネントを取り込むことができます。アプリのいくつかの側面を最適化するために、ネイティブ・コードを使用する方法は非常に簡潔です。またアプリの一部に React Native を用い、一部にネイティブ・コードを直に使うことも簡単です。Facebook アプリケーションもそのようにして動作しています。
 
 ```js
 import React, { Component } from 'react';
@@ -111,9 +111,15 @@ class SomethingFast extends Component {
 }
 ```
 
-Get Started with React Native  
-Who's using React Native?  
-Thousands of apps are using React Native, from established Fortune 500 companies to hot new startups. If you're curious to see what can be accomplished with React Native, check out these apps!  
-FacebookFacebook Ads ManagerInstagramF8AirbnbSkypeTeslaWalmart  
+## React Native を始めましょう
+
+Get Started with React Native
+
+## Who's using React Native?
+
+Thousands of apps are using React Native, from established Fortune 500 companies to hot new startups. If you're curious to see what can be accomplished with React Native, check out these apps!
+
+何千ものアプリケーションが React Native を使用しています。その範囲は広く、既に評価が安定した Fortune 500 カンパニーから、今まさに動いている新規スタートアップでも使用されています。
+
 More React Native apps
 
