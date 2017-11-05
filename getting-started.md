@@ -1,51 +1,38 @@
 # Getting Started
 
-This page will help you install and build your first React Native app. If you already have React Native installed, you can skip ahead to the[Tutorial](http://facebook.github.io/react-native/releases/0.49/docs/tutorial.html).
+This page will help you install and build your first React Native app. If you already have React Native installed, you can skip ahead to the [Tutorial](http://facebook.github.io/react-native/releases/0.49/docs/tutorial.html).
 
-このページは
+このページは初めて React Native をインストールして、アプリケーションを作る人のための情報を提供します。すでにインストールしているひとは飛ばして、次のチュートリアルに進んでください。[(このチュートリアル)](http://facebook.github.io/react-native/releases/0.49/docs/tutorial.html)
 
-* Quick Start
-* Building Projects with Native Code
+## Quick Start
 
-[Create React Native App](https://github.com/react-community/create-react-native-app)is the easiest way to start building a new React Native application. It allows you to start a project without installing or configuring any tools to build native code - no Xcode or Android Studio installation required \(see[Caveats](http://facebook.github.io/react-native/releases/0.49/docs/getting-started.html#caveats)\).
+[Create React Native App](https://github.com/react-community/create-react-native-app) is the easiest way to start building a new React Native application. It allows you to start a project without installing or configuring any tools to build native code - no Xcode or Android Studio installation required \(see [Caveats](http://facebook.github.io/react-native/releases/0.49/docs/getting-started.html#caveats)\).
 
-Assuming that you have[Node](https://nodejs.org/en/download/)installed, you can use npm to install the`create-react-native-app`command line utility:
+Create React App は、新規のリアクト・ネイティブ・アプリケーションを作るうえで一番簡単な方法です。native コードをビルドするために、他のツールのインストールや設定がまったく必要ありません。Xcode も Android Studio もインストールする必要がありません。
 
-npm install 
+Assuming that you have [Node](https://nodejs.org/en/download/) installed, you can use npm to install the`create-react-native-app`command line utility:
 
--
+ただし、Node がインストールされており、npm をつかってコマンドラインから create-react-app をインストールできる必要があります。
 
-g create
+では次のコマンドでインストールしていきましょう。
 
--
-
-react
-
--
-
-native
-
--
-
-app
+```
+$ npm install -g create-react-native-app
+```
 
 Then run the following commands to create a new React Native project called "AwesomeProject":
 
-create
+以下のコマンドで、"Awesome Project"という名称の新規の React Native プロジェクトを作成しましょう。
 
--
-
-react
-
--
-
-native
-
--
-
-app AwesomeProject cd AwesomeProject npm start
+```
+$ create-react-native-app AwesomeProject 
+$ cd AwesomeProject
+$ npm start
+```
 
 This will start a development server for you, and print a QR code in your terminal.
+
+これで開発用サーバーが立ち上がり、QR コードがターミナルに表示されます。
 
 ## Running your React Native application
 
