@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [top](top.md)
+* [Top](top.md)
 * [Getting Started](getting-started.md)
-* [translator](translator.md)
+* [Translator](translator.md)
 
