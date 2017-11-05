@@ -36,25 +36,38 @@ This will start a development server for you, and print a QR code in your termin
 
 ## Running your React Native application
 
-Install the[Expo](https://expo.io/)client app on your iOS or Android phone and connect to the same wireless network as your computer. Using the Expo app, scan the QR code from your terminal to open your project.
+Install the[Expo](https://expo.io/) client app on your iOS or Android phone and connect to the same wireless network as your computer. Using the Expo app, scan the QR code from your terminal to open your project.
+
+クライアントアプリケーションの [Expo](https://expo.io/) をご自身の iOS もしくは Android にインストールして、使用しているコンピューターと同じワイヤレスネットワークに接続してください。Expo アプリを使って ターミナルに表示された QR コードをスキャンをしましょう。するとプロジェクトが端末上で展開されます。
 
 ### Modifying your app
 
-Now that you have successfully run the app, let's modify it. Open`App.js`in your text editor of choice and edit some lines. The application should reload automatically once you save your changes.
+Now that you have successfully run the app, let's modify it. Open App.js in your text editor of choice and edit some lines. The application should reload automatically once you save your changes.
+
+さてこれでアプリケーションを走らせることに成功しましたので、次は変更をくわえてきいきましょう。App.js をテキストエディターで開いて編集していきます。変更を加えると、自動的にアプリケーションがリロードされます。
 
 ### That's it!
 
 Congratulations! You've successfully run and modified your first React Native app.
 
-![](http://facebook.github.io/react-native/releases/0.49/img/react-native-congratulations.png)
+おめでとうございます。最初の React Native アプリを走らせて、さらに変更を加えることに成功しましたね。
 
 ## Now what?
 
-* Create React Native App also has a[user guide](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md)you can reference if you have questions specific to the tool.
+次にどうすればいいか。
 
-* If you can't get this to work, see the[Troubleshooting](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md#troubleshooting)section in the README for Create React Native App.
+* Create React Native App also has a [user guide](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md)you can reference if you have questions specific to the tool.
 
-If you're curious to learn more about React Native, continue on to the[Tutorial](http://facebook.github.io/react-native/releases/0.49/docs/tutorial.html).
+* [User guide](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md)があるので、Create React Native Appに関して疑問があれば参照してください。
+
+
+* If you can't get this to work, see the [Troubleshooting](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md#troubleshooting) section in the README for Create React Native App.
+
+* うまくこのチュートリアルが動かなかった場合には、[Troubleshooting](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md#troubleshooting) を読んでください。
+
+If you're curious to learn more about React Native, continue on to the [Tutorial](http://facebook.github.io/react-native/releases/0.49/docs/tutorial.html).
+
+React Native について興味がうまれてもっと学びたいという場合には  [Tutorial](http://facebook.github.io/react-native/releases/0.49/docs/tutorial.html) を読み続けてください。
 
 ### Running your app on a simulator or virtual device
 
