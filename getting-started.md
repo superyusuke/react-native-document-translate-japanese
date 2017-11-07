@@ -2,7 +2,7 @@
 
 This page will help you install and build your first React Native app. If you already have React Native installed, you can skip ahead to the [Tutorial](http://facebook.github.io/react-native/releases/0.49/docs/tutorial.html).
 
-このページは初めて React Native をインストールして、アプリケーションを作る人のための情報を提供します。すでにインストールしているひとは飛ばして、次のチュートリアルに進んでください。[(このチュートリアル)](http://facebook.github.io/react-native/releases/0.49/docs/tutorial.html)
+このページは初めて React Native をインストールして、アプリケーションを作る人のための情報を提供します。すでにインストールしているひとは飛ばして、次のチュートリアルに進んでください。[\(このチュートリアル\)](http://facebook.github.io/react-native/releases/0.49/docs/tutorial.html)
 
 ## Quick Start
 
@@ -60,7 +60,6 @@ Congratulations! You've successfully run and modified your first React Native ap
 
 * [User guide](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md)があるので、Create React Native Appに関して疑問があれば参照してください。
 
-
 * If you can't get this to work, see the [Troubleshooting](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md#troubleshooting) section in the README for Create React Native App.
 
 * うまくこのチュートリアルが動かなかった場合には、[Troubleshooting](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md#troubleshooting) を読んでください。
@@ -79,7 +78,70 @@ Create React Native App は、開発環境の設定をする必要がないの�
 
 Once you've set these up, you can launch your app on an Android Virtual Device by running `npm run android`, or on the iOS Simulator by running `npm run ios` \(macOS only\).
 
-セットアップが完了しさえすれば、Android Virtual Device の場合には  `npm run android`と実行すればアプリケーションをその上で動かすことができます。iOS シミュレータの場合には`npm run ios`と実行してください。(ただし iOS シミュレータは macOS でしか提供されていません)
+セットアップが完了しさえすれば、Android Virtual Device の場合には  `npm run android`と実行すればアプリケーションをその上で動かすことができます。iOS シミュレータの場合には`npm run ios`と実行してください。\(ただし iOS シミュレータは macOS でしか提供されていません\)
+
+## iOS シミュレータもしくは Android Virtual Device でアプリケーションを動かすための準備
+
+### Installing dependencies
+
+You will need Node, Watchman, the React Native command line interface, and Xcode.
+
+Node, Watchman, React Native command line interface, Xcode が必要です。
+
+While you can use any editor of your choice to develop your app, you will need to install Xcode in order to set up the necessary tooling to build your React Native app for iOS.
+
+開発に使うのは、どんなエディターでもかまいませんが、まず Xcode をインストールして、React Native app をビルドするのに必要なツールを用意する必要があります。
+
+### Node, Watchman
+
+We recommend installing Node and Watchman using Homebrew. Run the following commands in a Terminal after installing Homebrew:
+
+Node と Watchman のインストールには Homebrew をしようすることを推奨します。Homebrew をインストールした後に、以下のコマンドをターミナルで実行してください。
+
+```
+$ brew install node
+$ brew install watchman
+```
+
+If you have already installed Node on your system, make sure it is version 4 or newer.
+
+すでに Node をインストールしている場合には、そのバージョンが 4 以上であるようにしてください。
+
+Watchman is a tool by Facebook for watching changes in the filesystem. It is highly recommended you install it for better performance.
+
+Watchman は Facebook が開発したツールで、filesystem の変更を監視します。より良いパフォーマンスのために、このツールをインストールすることを強く推奨いたします。
+
+### The React Native CLI
+
+Node comes with npm, which lets you install the React Native command line interface.
+
+Node に付随している npm を使用して、React Native command line interface をインストールしましょう。
+
+Run the following command in a Terminal:
+
+以下のコマンドをターミナルで実行します。
+
+```
+$ npm install -g react-native-cli
+```
+
+If you get an error like `Cannot find module 'npmlog'`, try installing npm directly: `curl -0 -L https://npmjs.org/install.sh | sudo sh`.
+
+次のようなエラーが出る場合には `Cannot find module 'npmlog'`、npm をダイレクトにインストールしてください: `curl -0 -L https://npmjs.org/install.sh | sudo sh`.
+
+### Xcode 
+
+The easiest way to install Xcode is via the Mac App Store. Installing Xcode will also install the iOS Simulator and all the necessary tools to build your iOS app.
+
+Xcode をインストールする一番簡単な方法は Mac App Store を使うことです。Xcode をインストールすると、同時に iOS Simulator と iOS app をビルドするために必要なツール一式もインストールしてくれます。
+
+If you have already installed Xcode on your system, make sure it is version 8 or higher.
+
+Command Line Tools
+
+You will also need to install the Xcode Command Line Tools. Open Xcode, then choose "Preferences..." from the Xcode menu. Go to the Locations panel and install the tools by selecting the most recent version in the Command Line Tools dropdown.
+
+Xcode Command Line Tools
 
 ### Caveats
 
