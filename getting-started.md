@@ -129,7 +129,7 @@ If you get an error like `Cannot find module 'npmlog'`, try installing npm direc
 
 次のようなエラーが出る場合には `Cannot find module 'npmlog'`、npm をダイレクトにインストールしてください: `curl -0 -L https://npmjs.org/install.sh | sudo sh`.
 
-### Xcode 
+### Xcode
 
 The easiest way to install Xcode is via the Mac App Store. Installing Xcode will also install the iOS Simulator and all the necessary tools to build your iOS app.
 
@@ -137,11 +137,13 @@ Xcode をインストールする一番簡単な方法は Mac App Store を使�
 
 If you have already installed Xcode on your system, make sure it is version 8 or higher.
 
-Command Line Tools
+Xcode をすでにインストールしている場合には、バージョンが8以上であるようにしてください。
+
+### Command Line Tools
 
 You will also need to install the Xcode Command Line Tools. Open Xcode, then choose "Preferences..." from the Xcode menu. Go to the Locations panel and install the tools by selecting the most recent version in the Command Line Tools dropdown.
 
-Xcode Command Line Tools
+Xcode Command Line Tool もインストールする必要があります。Xcode を開いて、"Preferences..." を Xcode のメニューから洗濯してください。Location パネルに移動し、Command Line Tools のドロップダウンから、一番最新のものを選択してインストールします。![](/assets/import.png)
 
 ### Caveats
 
