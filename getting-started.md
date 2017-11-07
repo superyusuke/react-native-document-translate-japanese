@@ -71,9 +71,15 @@ React Native について興味がうまれてもっと学びたいという場�
 
 ### Running your app on a simulator or virtual device
 
+作成したアプリケーションを、シミュレータもしくは仮想デバイス上で動かす
+
 Create React Native App makes it really easy to run your React Native app on a physical device without setting up a development environment. If you want to run your app on the iOS Simulator or an Android Virtual Device, please refer to the instructions for building projects with native code to learn how to install Xcode and set up your Android development environment.
 
-Once you've set these up, you can launch your app on an Android Virtual Device by running`npm run android`, or on the iOS Simulator by running`npm run ios`\(macOS only\).
+Create React Native App は、開発環境の設定をする必要がないので非常に簡単に、実際の物理デバイス上でアプリケーションを走らせることができます。ですが、アプリケーションを iOS シミュレータや Android の仮想デバイス上で動かしたい場合には、Xcode のインストールと Android 開発環境のセットアップに関する説明を読んでください。
+
+Once you've set these up, you can launch your app on an Android Virtual Device by running `npm run android`, or on the iOS Simulator by running `npm run ios` \(macOS only\).
+
+セットアップが完了しさえすれば、Android Virtual Device の場合には  `npm run android`と実行すればアプリケーションをその上で動かすことができます。iOS シミュレータの場合には`npm run ios`と実行してください。(ただし iOS シミュレータは macOS でしか提供されていません)
 
 ### Caveats
 
