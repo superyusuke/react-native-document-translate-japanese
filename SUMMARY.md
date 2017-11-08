@@ -3,6 +3,6 @@
 * [Introduction](README.md)
 * [Top](top.md)
 * [Getting Started](getting-started.md)
-* [Building Projects with Native Code](building-projects-with-native-code.md)
+* [Learn the Basics ](learn_the_basic.md)
 * [Translator](translator.md)
 
