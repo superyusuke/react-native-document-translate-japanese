@@ -43,7 +43,9 @@ First of all, ES2015 (also known as ES6) is a set of improvements to JavaScript 
 
 訳注：ES2015 についての解説。ES2015について慣れていない人は、[this page](https://babeljs.io/learn-es2015/)を参照。
 
-The other unusual thing in this code example is <Text>Hello world!</Text>. This is JSX - a syntax for embedding XML within JavaScript. Many frameworks use a special templating language which lets you embed code inside markup language. In React, this is reversed. JSX lets you write your markup language inside code. It looks like HTML on the web, except instead of web things like <div> or <span>, you use React components. In this case, <Text> is a built-in component that just displays some text.
+The other unusual thing in this code example is `<Text>` Hello world!`</Text>`. This is JSX - a syntax for embedding XML within JavaScript. Many frameworks use a special templating language which lets you embed code inside markup language. In React, this is reversed. JSX lets you write your markup language inside code. It looks like HTML on the web, except instead of web things like `<div>` or `<span>`, you use React components. In this case, `<Text>` is a built-in component that just displays some text.
+
+訳注：`<Text>` は見慣れない構文であるが、これはJSX の記法。React Compont の呼び出し。詳しくは React そのもののマニュアルを参照。
 
 Components 
 So this code is defining HelloWorldApp, a new Component. When you're building a React Native app, you'll be making new components a lot. Anything you see on the screen is some sort of component. A component can be pretty simple - the only thing that's required is a render function which returns some JSX to render.
