@@ -2,7 +2,7 @@
 
 React Native is like React, but it uses native components instead of web components as building blocks. So to understand the basic structure of a React Native app, you need to understand some of the basic React concepts, like JSX, components, state, and props. If you already know React, you still need to learn some React-Native-specific stuff, like the native components. This tutorial is aimed at all audiences, whether you have React experience or not.
 
-React Native は React と似ています。ただし、アプリケーションを構成するために、Web Component ではなく Native Component を用いる点は異なっています。ですので React Native App の基本的な概念を学ぶためには、React の基礎的な概念を理解する必要があります。例えば JSX, component, state, prop といった概念などです。React をすでに知っているのであれば、さらに進んで native component のような React Native に特有の概念を学んでいく必要があります。
+React Native は React と似ています。ただし、アプリケーションを構成するために、Web Component ではなく Native Component を用いる点は異なっています。ですので React Native App の基本的な概念を学ぶためには、React の基礎的な概念を理解する必要があります。例えば JSX, component, state, prop といった概念などです。React をすでに知っているのであれば、さらに進んで native component のような React Native に特有の概念を学んでいく必要があります。本チュートリアルは、React の経験がある人もない人も、全ての方向けに作成されています。
 
 Let's do this thing.
 
