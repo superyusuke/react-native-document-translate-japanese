@@ -34,7 +34,7 @@ Notice that {pic} is surrounded by braces, to embed the variable `pic` into JSX.
 
 Your own components can also use props. This lets you make a single component that is used in many different places in your app, with slightly different properties in each place. Just refer to this.props in your render function. Here's an example:
 
-自分作成したコンポーネントにも props を用いることができます。
+自分作成したコンポーネントにも props を用いることができます。これによって、同じコンポーネントを様々な場所で、少しだけ異なる内容を持たせて使用することが可能になります。Render function の中で、this.props を参照するだけです。
 
 ```js
 import React, { Component } from 'react';
@@ -64,3 +64,14 @@ export default class LotsOfGreetings extends Component {
 AppRegistry.registerComponent('AwesomeProject', () => LotsOfGreetings);
 ```
 
+Using name as a prop lets us customize the Greeting component, so we can reuse that component for each of our greetings. This example also uses the Greeting component in JSX, just like the built-in components. The power to do this is what makes React so cool - if you find yourself wishing that you had a different set of UI primitives to work with, you just invent new ones.
+
+name という prop を用いることで、Greeting コンポーネントをカスタマイズすることができるので、同じコンポーネントをそれぞれ異なる挨拶に対して使いまわすことができます。また、この例では Greeting コンポーネントを JSX の中で用いていますが、あたかも built-in コンポーネントかのように用いています。こうすることには大きな利点があり、それによって React   をとてもクールなものにしています。つまり、UI primitive(訳注：おそらく Native Cmponent のままの素朴な UI のこと) とは少し違ったものを使いたいと思った場合には、自分でそれを作ってしまえばいいのです。
+
+The other new thing going on here is the View component. A View is useful as a container for other components, to help control style and layout.
+
+ここではもう一つ新しいものが使われています。 View component です。View は、そのほかのコンポーネントのコンテイナーとして便利なもので、スタイルやレイアウトをコントロールする際に便利です。
+
+With props and the basic Text, Image, and View components, you can build a wide variety of static screens. To learn how to make your app change over time, you need to learn about State.
+
+props と 基礎的な `Text`, `Image`, `View` コンポンーネントによって、広範囲にわたる静的な画面を作り出すことができます。時間によって変化するアプリケーションを作りたい場合には、State を学ぶ必要があります。
