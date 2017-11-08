@@ -33,6 +33,7 @@ If you are feeling curious, you can play around with sample code directly in the
 興味があれば、サンプルコードを Web シミュレータ上で直接実行してみてください。もしくは上記のコードを App.js ファイルにペースとして、ローカルマシーン上の実際のアプリケーションの上で実行してみましょう。
 
 ## What's going on here?
+
 何がおきているか
 
 Some of the things in here might not look like JavaScript to you. Don't panic. This is the future.
@@ -47,8 +48,16 @@ The other unusual thing in this code example is `<Text>` Hello world!`</Text>`. 
 
 訳注：`<Text>` は見慣れない構文であるが、これはJSX の記法。React Compont の呼び出し。詳しくは React そのもののマニュアルを参照。
 
-Components 
-So this code is defining HelloWorldApp, a new Component. When you're building a React Native app, you'll be making new components a lot. Anything you see on the screen is some sort of component. A component can be pretty simple - the only thing that's required is a render function which returns some JSX to render.
+## Components
 
-This app doesn't do very much 
+So this code is defining `HelloWorldApp`, a new Component. When you're building a React Native app, you'll be making new components a lot. Anything you see on the screen is some sort of component. A component can be pretty simple - the only thing that's required is a render function which returns some JSX to render.
+
+ということで上記のコードは、`HelloWorldApp` という新しいコンポーネントを定義しています。React Native app を構築していくにあたって、新しいコンポーネントをたくさん作っていくことになります。スクリーンに写っているものはどれでも全て、このようなコンポーネントでできています。コンポーネントは非常にシンプルです。必要なのは、レンダリングされる JSX を return する render function を持っていることだけです。
+
+## This app doesn't do very much 
+
+このアプリはほとんど何もしていませんね。
+
 Good point. To make components do more interesting things, you need to learn about Props.
+
+おっしゃる通りです。もっと面白いことをするために、次に Props を学びましょう。
