@@ -39,9 +39,9 @@ Some of the things in here might not look like JavaScript to you. Don't panic. T
 
 ここで起きていることは、JavaScript のようには見えないかもしれません。動転しないでください。これは次世代の JavaScript なんです。
 
-First of all, ES2015 (also known as ES6) is a set of improvements to JavaScript that is now part of the official standard, but not yet supported by all browsers, so often it isn't used yet in web development. React Native ships with ES2015 support, so you can use this stuff without worrying about compatibility. import, from, class, extends, and the () => syntax in the example above are all ES2015 features. If you aren't familiar with ES2015, you can probably pick it up just by reading through sample code like this tutorial has. If you want, this page has a good overview of ES2015 features.
+First of all, ES2015 (also known as ES6) is a set of improvements to JavaScript that is now part of the official standard, but not yet supported by all browsers, so often it isn't used yet in web development. React Native ships with ES2015 support, so you can use this stuff without worrying about compatibility. import, from, class, extends, and the () => syntax in the example above are all ES2015 features. If you aren't familiar with ES2015, you can probably pick it up just by reading through sample code like this tutorial has. If you want, [this page](https://babeljs.io/learn-es2015/) has a good overview of ES2015 features.
 
-まず、
+訳注：ES2015 についての解説。ES2015について慣れていない人は、[this page](https://babeljs.io/learn-es2015/)を参照。
 
 The other unusual thing in this code example is <Text>Hello world!</Text>. This is JSX - a syntax for embedding XML within JavaScript. Many frameworks use a special templating language which lets you embed code inside markup language. In React, this is reversed. JSX lets you write your markup language inside code. It looks like HTML on the web, except instead of web things like <div> or <span>, you use React components. In this case, <Text> is a built-in component that just displays some text.
 
