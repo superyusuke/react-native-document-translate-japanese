@@ -34,7 +34,7 @@ Notice that {pic} is surrounded by braces, to embed the variable `pic` into JSX.
 
 Your own components can also use props. This lets you make a single component that is used in many different places in your app, with slightly different properties in each place. Just refer to this.props in your render function. Here's an example:
 
-自分作成したコンポーネントにも props を用いることができます、
+自分作成したコンポーネントにも props を用いることができます。
 
 ```js
 import React, { Component } from 'react';
