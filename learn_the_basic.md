@@ -6,16 +6,42 @@ React Native は React と似ています。ただし、アプリケーション
 
 Let's do this thing.
 
-Hello World 
+では進めていきましょう。
+
+## Hello World 
+
 In accordance with the ancient traditions of our people, we must first build an app that does nothing except say "Hello world". Here it is:
 
+太古からの我々の伝統に乗っ取り、「Hello, world」と言う以外に何もしないアプリケーションを構築しましょう。
+
+```js
+import React, { Component } from 'react';
+import { Text } from 'react-native';
+
+export default class HelloWorldApp extends Component {
+  render() {
+    return (
+      <Text>Hello world!</Text>
+    );
+  }
+}
+
+```
 
 If you are feeling curious, you can play around with sample code directly in the web simulators. You can also paste it into your App.js file to create a real app on your local machine.
 
-What's going on here? 
+興味があれば、サンプルコードを Web シミュレータ上で直接実行してみてください。もしくは上記のコードを App.js ファイルにペースとして、ローカルマシーン上の実際のアプリケーションの上で実行してみましょう。
+
+## What's going on here?
+何がおきているか
+
 Some of the things in here might not look like JavaScript to you. Don't panic. This is the future.
 
+ここで起きていることは、JavaScript のようには見えないかもしれません。動転しないでください。これは次世代の JavaScript なんです。
+
 First of all, ES2015 (also known as ES6) is a set of improvements to JavaScript that is now part of the official standard, but not yet supported by all browsers, so often it isn't used yet in web development. React Native ships with ES2015 support, so you can use this stuff without worrying about compatibility. import, from, class, extends, and the () => syntax in the example above are all ES2015 features. If you aren't familiar with ES2015, you can probably pick it up just by reading through sample code like this tutorial has. If you want, this page has a good overview of ES2015 features.
+
+まず、
 
 The other unusual thing in this code example is <Text>Hello world!</Text>. This is JSX - a syntax for embedding XML within JavaScript. Many frameworks use a special templating language which lets you embed code inside markup language. In React, this is reversed. JSX lets you write your markup language inside code. It looks like HTML on the web, except instead of web things like <div> or <span>, you use React components. In this case, <Text> is a built-in component that just displays some text.
 
