@@ -28,9 +28,9 @@ export default class Bananas extends Component {
 AppRegistry.registerComponent('AwesomeProject', () => Bananas);
 ```
 
-Notice that {pic} is surrounded by braces, to embed the variable pic into JSX. You can put any JavaScript expression inside braces in JSX.
+Notice that {pic} is surrounded by braces, to embed the variable `pic` into JSX. You can put any JavaScript expression inside braces in JSX.
 
-{pic} というふうに、{} で囲まれている
+{pic} というふうに、{} で囲まれている点に着目してください。これによって `pic` と言う変数を JSX の中に埋め込んでいます。JSX 内に {} によって、どんな JavaScript expression も埋め込むことができます。
 
 Your own components can also use props. This lets you make a single component that is used in many different places in your app, with slightly different properties in each place. Just refer to this.props in your render function. Here's an example:
 
