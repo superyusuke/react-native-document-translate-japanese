@@ -27,3 +27,10 @@ export default class Bananas extends Component {
 // この行は Create React Native App を用いた場合には必要ありません。
 AppRegistry.registerComponent('AwesomeProject', () => Bananas);
 ```
+
+Notice that {pic} is surrounded by braces, to embed the variable pic into JSX. You can put any JavaScript expression inside braces in JSX.
+
+{pic} というふうに、{} で囲まれている
+
+Your own components can also use props. This lets you make a single component that is used in many different places in your app, with slightly different properties in each place. Just refer to this.props in your render function. Here's an example:
+
