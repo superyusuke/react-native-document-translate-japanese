@@ -10,6 +10,7 @@ In general, you should initialize state in the constructor, and then call setSta
 
 For example, let's say we want to make text that blinks all the time. The text itself gets set once when the blinking component gets created, so the text itself is a prop. The "whether the text is currently on or off" changes over time, so that should be kept in state.
 
+例えば、
 
 ```js
 import React, { Component } from 'react';
