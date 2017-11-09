@@ -6,6 +6,8 @@ There are two types of data that control a component: props and state. props are
 
 In general, you should initialize state in the constructor, and then call setState when you want to change it.
 
+一般的に言って、コンストラクタにおいて state を初期化し、それを変える場合には setState を用います。
+
 For example, let's say we want to make text that blinks all the time. The text itself gets set once when the blinking component gets created, so the text itself is a prop. The "whether the text is currently on or off" changes over time, so that should be kept in state.
 
 
