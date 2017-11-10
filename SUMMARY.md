@@ -7,5 +7,6 @@
 * [Props](props.md)
 * [State](state.md)
 * [Style](style.md)
+* [Height and Width](height-and-width.md)
 * [Translator](translator.md)
 
