@@ -74,3 +74,7 @@ export default class FlexDimensionsBasics extends Component {
 AppRegistry.registerComponent('AwesomeProject', () => FlexDimensionsBasics);
 ```
 
+After you can control a component's size, the next step is to learn how to lay it out on the screen.
+
+コンポーネントのサイズをコントロールできるようになったので、次はスクリーン上にどのようにレイアウトするのかを学習します。
+
