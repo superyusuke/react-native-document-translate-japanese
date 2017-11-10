@@ -54,4 +54,4 @@ text のスタイリングをする方法はたくさんあります。Text comp
 
 Now you can make your text beautiful. The next step in becoming a style master is to learn how to control component size.
 
-さあ Text を美しく装飾することができました。
+さあ Text を美しく装飾することができました。次なる style マスターへの一歩は、コンポーネントのサイズをコントロールすることです。
