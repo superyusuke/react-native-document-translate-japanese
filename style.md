@@ -43,3 +43,15 @@ const styles = StyleSheet.create({
 // skip this line if using Create React Native App
 AppRegistry.registerComponent('AwesomeProject', () => LotsOfStyles);
 ```
+
+One common pattern is to make your component accept a style prop which in turn is used to style subcomponents. You can use this to make styles "cascade" the way they do in CSS.
+
+よくある手法として、コンポーネントには一つだけの style prop を受け取らせて、それを用いてサブコンポーネントをもスタイリングさせる手法です。これを用いて style を "cascade" することができます。これは CSS でも行われる手法ですね。(訳注：よくわからない。実例が欲しいところ。)
+
+There are a lot more ways to customize text style. Check out the Text component reference for a complete list.
+
+text のスタイリングをする方法はたくさんあります。Text component のリファレンスを参照してください。
+
+Now you can make your text beautiful. The next step in becoming a style master is to learn how to control component size.
+
+さあ Text を美しく装飾することができました。
