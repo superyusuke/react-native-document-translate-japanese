@@ -42,4 +42,6 @@ Setting dimensions this way is common for components that should always render a
 
 Use flex in a component's style to have the component expand and shrink dynamically based on available space. Normally you will use flex: 1, which tells a component to fill all available space, shared evenly amongst each other component with the same parent. The larger the flex given, the higher the ratio of space a component will take compared to its siblings.
 
-コンポーネントの Style の中で flex を用いることで、使用可能なスペースに合わせて伸び縮みさせることができます。
+コンポーネントの Style の中で flex を用いることで、使用可能なスペースに合わせて伸び縮みさせることができます。flex: 1 を用いると、コンポーネントに対して使えるスペース全部を埋めるように支持することになります。ただしその際に同じ親コンポーネントを持つ隣接するコンポーネントとその領域をわけあうことになります。flex の値が大きくなるほど、兄弟要素の間で、占める割合が増すことになります。
+
+
