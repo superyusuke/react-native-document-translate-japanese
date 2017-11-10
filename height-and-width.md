@@ -45,3 +45,9 @@ Use flex in a component's style to have the component expand and shrink dynamica
 コンポーネントの Style の中で flex を用いることで、使用可能なスペースに合わせて伸び縮みさせることができます。flex: 1 を用いると、コンポーネントに対して使えるスペース全部を埋めるように支持することになります。ただしその際に同じ親コンポーネントを持つ隣接するコンポーネントとその領域をわけあうことになります。flex の値が大きくなるほど、兄弟要素の間で、占める割合が増すことになります。
 
 
+_A component can only expand to fill available space if its parent has dimensions greater than 0. If a parent does not have either a fixed width and height or flex, the parent will have dimensions of 0 and the flex children will not be visible.
+_
+
+コンポーネントは使用可能なスペース全てを埋めるわけですが、それは親要素の縦横幅が 0 以上の場合に限られます。もし親要素に高さや幅を固定もしくは flex で指定されてない場合、親要素の縦横幅が 0 になってしまうので、その子要素に flex が指定されていたとしても、見えなくなってしまいます。
+
+
