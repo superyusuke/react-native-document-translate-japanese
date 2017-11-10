@@ -6,5 +6,6 @@
 * [Learn the Basics ](learn_the_basic.md)
 * [Props](props.md)
 * [State](state.md)
+* [Style](style.md)
 * [Translator](translator.md)
 
