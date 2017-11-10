@@ -63,3 +63,5 @@ When setState is called, BlinkApp will re-render its Component. By calling setSt
 setState が呼び出されると、BlinkApp は自分自身のコンポーネントを re-render します。Timer の中で setState を呼び出すことで、コンポーネントは Timer が駆動するたびに、コンポーネントを re-render します。
 
 State works the same way as it does in React, so for more details on handling state, you can look at the React.Component API. At this point, you might be annoyed that most of our examples so far use boring default black text. To make things more beautiful, you will have to learn about Style.
+
+React Native における State は React における State と全く同じように動作しますので、state の扱いをより知りたい場合には React Component API を参照ください。さて、この時点では我々の例示が今のところは退屈な黒いだけのテキストであることに、苛立ちを感じていることでしょう。より装飾的にするために、次は Style を学んでいきます。
