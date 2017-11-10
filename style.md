@@ -6,6 +6,8 @@ React Native 使う場合、スタイルを定義するための、特別な言�
 
 The style prop can be a plain old JavaScript object. That's the simplest and what we usually use for example code. You can also pass an array of styles - the last style in the array has precedence, so you can use this to inherit styles.
 
-style prop は普通の伝統的な JavaScript のオブジェクトを渡します。これが一番シンプルな形式で、サンプルコードでは一般的にこのタイプが使われます。また style の配列を渡すこともできます。配列の最後のスタイルが適応されますので、これをつかってスタイルを継承させることができます。？
+style prop は普通の伝統的な JavaScript のオブジェクトを渡します。これが一番シンプルな形式で、サンプルコードでは一般的にこのタイプが使われます。また style の配列を渡すこともできます。配列の最後のスタイルが適応されますので、これをつかってスタイルを継承させることができます。(訳注：おそらく、配列の前から後ろへと上書きされていくということがいわれていると思われる。)
 
 As a component grows in complexity, it is often cleaner to use StyleSheet.create to define several styles in one place. Here's an example:
+
+コンポーネントが複雑になるにつれて、StyleSheet.create を用いて複数のスタイルを一箇所にまとめた方が、より綺麗に整頓できるはずです。次のように。
