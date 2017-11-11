@@ -9,5 +9,5 @@
 * [Style](style.md)
 * [Height and Width](height-and-width.md)
 * [Layout with Flexbox](layout-with-flexbox.md)
-* [Layout with Flexbox](layout-with-flexbox.md)
+* [Translator](translator.md)
 
