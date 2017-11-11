@@ -8,5 +8,6 @@
 * [State](state.md)
 * [Style](style.md)
 * [Height and Width](height-and-width.md)
-* [Translator](translator.md)
+* [Layout with Flexbox](layout-with-flexbox.md)
+* [Layout with Flexbox](layout-with-flexbox.md)
 
