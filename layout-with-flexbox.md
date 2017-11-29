@@ -18,7 +18,7 @@ Adding `flexDirection` to a component's `style` determines the **primary axis** 
 
 `flexDirection` をコンポーネントの `style` に与えることで、レイアウトの方向の主軸を決定します。(訳注: 水平方向か垂直方向かどちらに並べるかを決定するということ) 子要素が水平(row)もしくは垂直(column)に整列しましたか？デフォルトでは column が設定されています。
 
-```
+```js
 import React, { Component } from 'react';
 import { AppRegistry, View } from 'react-native';
 
