@@ -26,6 +26,7 @@ export default class FlexDirectionBasics extends Component {
   render() {
     return (
       // Try setting `flexDirection` to `column`.
+      // `flexDirection` を column にも変更してみましょう
       <View style={{flex: 1, flexDirection: 'row'}}>
         <View style={{width: 50, height: 50, backgroundColor: 'powderblue'}} />
         <View style={{width: 50, height: 50, backgroundColor: 'skyblue'}} />
@@ -38,5 +39,13 @@ export default class FlexDirectionBasics extends Component {
 // skip this line if using Create React Native App
 AppRegistry.registerComponent('AwesomeProject', () => FlexDirectionBasics);
 ```
+
+## Justify Content 
+
+Adding `justifyContent` to a component's `style` determines the **distribution** of children along the `primary axis`. Should children be distributed at the start, the center, the end, or spaced evenly? Available options are `flex-start`, `center`, `flex-end`, `space-around`, and `space-between`.
+
+
+
+
 
 
