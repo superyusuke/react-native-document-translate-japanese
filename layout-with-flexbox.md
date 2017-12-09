@@ -73,6 +73,10 @@ AppRegistry.registerComponent('AwesomeProject', () => JustifyContentBasics);
 
 ```
 
+## Align Items
+Adding alignItems to a component's style determines the alignment of children along the secondary axis (if the primary axis is row, then the secondary is column, and vice versa). Should children be aligned at the start, the center, the end, or stretched to fill? Available options are flex-start, center, flex-end, and stretch.
+
+
 
 
 
