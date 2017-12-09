@@ -46,7 +46,32 @@ Adding `justifyContent` to a component's `style` determines the **distribution**
 
 `justifyContent` をコンポーネントの `style` に追加することで、子要素が主軸にそってどのような配分で配置されるかを規定します。 その配置は、始点に寄せる、中央寄せ、終点寄せ、もしくは均等揃えです。`justifyContent` のオプションは次の通りです。 `flex-start`, `center`, `flex-end`, `space-around`, and `space-between`.
 
+```js
+import React, { Component } from 'react';
+import { AppRegistry, View } from 'react-native';
 
+export default class JustifyContentBasics extends Component {
+  render() {
+    return (
+      // Try setting `justifyContent` to `center`.
+      // Try setting `flexDirection` to `row`.
+      <View style={{
+        flex: 1,
+        flexDirection: 'column',
+        justifyContent: 'space-between',
+      }}>
+        <View style={{width: 50, height: 50, backgroundColor: 'powderblue'}} />
+        <View style={{width: 50, height: 50, backgroundColor: 'skyblue'}} />
+        <View style={{width: 50, height: 50, backgroundColor: 'steelblue'}} />
+      </View>
+    );
+  }
+};
+
+// skip this line if using Create React Native App
+AppRegistry.registerComponent('AwesomeProject', () => JustifyContentBasics);
+
+```
 
 
 
