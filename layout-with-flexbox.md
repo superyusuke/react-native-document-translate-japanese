@@ -78,3 +78,31 @@ Adding `alignItems` to a component's style determines the **alignment** of child
 
 `alignItems` をコンポーネントの style に加えることで、子要素が第二軸にそってどのような **alignment** で配置されるかを規定します。(主軸が `row` の場合、第二軸は `column` になります。またその反対です。) その配置は、始点に寄せる、中央寄せ、終点寄せ、stretched to fillです。`alignItems` のオプションは次の通りです。 `flex-start`, `center`, `flex-end`, and `stretch`.
 
+```js
+import React, { Component } from 'react';
+import { AppRegistry, View } from 'react-native';
+
+export default class AlignItemsBasics extends Component {
+  render() {
+    return (
+      // Try setting `alignItems` to 'flex-start'
+      // Try setting `justifyContent` to `flex-end`.
+      // Try setting `flexDirection` to `row`.
+      <View style={{
+        flex: 1,
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'stretch',
+      }}>
+        <View style={{width: 20, height: 50, backgroundColor: 'powderblue'}} />
+        <View style={{width: 20, height: 50, backgroundColor: 'skyblue'}} />
+        <View style={{width: 20, height: 50, backgroundColor: 'steelblue'}} />
+      </View>
+    );
+  }
+};
+
+// skip this line if using Create React Native App
+AppRegistry.registerComponent('AwesomeProject', () => AlignItemsBasics);
+
+```
