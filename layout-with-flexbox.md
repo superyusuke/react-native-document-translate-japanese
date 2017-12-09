@@ -14,9 +14,9 @@ Flexbox は React Native においても、一部例外はあるものの、ウ�
 
 ## Flex Direction
 
-Adding `flexDirection` to a component's `style` determines the **primary axis** of its layout. Should the children be organized horizontally (row) or vertically (column)? The default is column.
+Adding `flexDirection` to a component's `style` determines the **primary axis** of its layout. Should the children be organized horizontally \(row\) or vertically \(column\)? The default is column.
 
-`flexDirection` をコンポーネントの `style` に与えることで、レイアウトの方向の主軸を決定します。(訳注: 水平方向か垂直方向かどちらに並べるかを決定するということ) 子要素が水平(row)もしくは垂直(column)に整列しましたか？デフォルトでは column が設定されています。
+`flexDirection` をコンポーネントの `style` に与えることで、レイアウトの方向の主軸を決定します。\(訳注: 水平方向か垂直方向かどちらに並べるかを決定するということ\) 子要素が水平\(row\)もしくは垂直\(column\)に整列しましたか？デフォルトでは column が設定されています。
 
 ```js
 import React, { Component } from 'react';
@@ -40,7 +40,7 @@ export default class FlexDirectionBasics extends Component {
 AppRegistry.registerComponent('AwesomeProject', () => FlexDirectionBasics);
 ```
 
-## Justify Content 
+## Justify Content
 
 Adding `justifyContent` to a component's `style` determines the **distribution** of children along the `primary axis`. Should children be distributed at the start, the center, the end, or spaced evenly? Available options are `flex-start`, `center`, `flex-end`, `space-around`, and `space-between`.
 
@@ -70,18 +70,11 @@ export default class JustifyContentBasics extends Component {
 
 // skip this line if using Create React Native App
 AppRegistry.registerComponent('AwesomeProject', () => JustifyContentBasics);
-
 ```
 
 ## Align Items
-Adding alignItems to a component's style determines the alignment of children along the secondary axis (if the primary axis is row, then the secondary is column, and vice versa). Should children be aligned at the start, the center, the end, or stretched to fill? Available options are flex-start, center, flex-end, and stretch.
 
+Adding `alignItems` to a component's style determines the **alignment** of children along **the secondary axis** (if the primary axis is `row`, then the secondary is `column`, and vice versa). Should children be aligned at the start, the center, the end, or stretched to fill? Available options are `flex-start`, `center`, `flex-end`, and `stretch`.
 
-
-
-
-
-
-
-
+`alignItems` をコンポーネントの style に加えることで、子要素が第二軸にそってどのような **alignment** で配置されるかを規定します。(主軸が `row` の場合、第二軸は `column` になります。またその反対です。) その配置は、始点に寄せる、中央寄せ、終点寄せ、stretched to fillです。`alignItems` のオプションは次の通りです。 `flex-start`, `center`, `flex-end`, and `stretch`.
 
