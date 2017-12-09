@@ -74,9 +74,9 @@ AppRegistry.registerComponent('AwesomeProject', () => JustifyContentBasics);
 
 ## Align Items
 
-Adding `alignItems` to a component's style determines the **alignment** of children along **the secondary axis** (if the primary axis is `row`, then the secondary is `column`, and vice versa). Should children be aligned at the start, the center, the end, or stretched to fill? Available options are `flex-start`, `center`, `flex-end`, and `stretch`.
+Adding `alignItems` to a component's style determines the **alignment** of children along **the secondary axis** \(if the primary axis is `row`, then the secondary is `column`, and vice versa\). Should children be aligned at the start, the center, the end, or stretched to fill? Available options are `flex-start`, `center`, `flex-end`, and `stretch`.
 
-`alignItems` をコンポーネントの style に加えることで、子要素が第二軸にそってどのような **alignment** で配置されるかを規定します。(主軸が `row` の場合、第二軸は `column` になります。またその反対です。) その配置は、始点に寄せる、中央寄せ、終点寄せ、stretched to fillです。`alignItems` のオプションは次の通りです。 `flex-start`, `center`, `flex-end`, and `stretch`.
+`alignItems` をコンポーネントの style に加えることで、子要素が第二軸にそってどのような **alignment** で配置されるかを規定します。\(主軸が `row` の場合、第二軸は `column` になります。またその反対です。\) その配置は、始点に寄せる、中央寄せ、終点寄せ、stretched to fillです。`alignItems` のオプションは次の通りです。 `flex-start`, `center`, `flex-end`, and `stretch`.
 
 ```js
 import React, { Component } from 'react';
@@ -104,5 +104,15 @@ export default class AlignItemsBasics extends Component {
 
 // skip this line if using Create React Native App
 AppRegistry.registerComponent('AwesomeProject', () => AlignItemsBasics);
-
 ```
+
+## Going Deeper
+
+We've covered the basics, but there are many other styles you may need for layouts. The full list of props that control layout is documented [here](https://facebook.github.io/react-native/docs/layout-props.html).
+
+基礎的な部分を説明してきました。しかしまだレイアウトのために知るべきことがたくさんあります。レイアウトをコントロールする全ての props に関するドキュメントは [here](https://facebook.github.io/react-native/docs/layout-props.html) こちらにあります。
+
+We're getting close to being able to build a real application. One thing we are still missing is a way to take user input, so let's move on to [learn how to handle text input with the TextInput component](https://facebook.github.io/react-native/docs/handling-text-input.html).
+
+さあ、実際のアプリケーションを作る準備が大体できてきました。一つだけ残っているのは、ユーザーの入力を取得する方法です。[では入力されたテキストをTextInput component を用いて処理する方法を、学習しましょう。](https://facebook.github.io/react-native/docs/handling-text-input.html).
+
