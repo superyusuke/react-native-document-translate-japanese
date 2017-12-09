@@ -44,6 +44,13 @@ AppRegistry.registerComponent('AwesomeProject', () => FlexDirectionBasics);
 
 Adding `justifyContent` to a component's `style` determines the **distribution** of children along the `primary axis`. Should children be distributed at the start, the center, the end, or spaced evenly? Available options are `flex-start`, `center`, `flex-end`, `space-around`, and `space-between`.
 
+`justifyContent` をコンポーネントの `style` に追加することで、子要素が主軸にそってどのような配分で配置されるかを規定します。 その配置は、始点に寄せる、中央寄せ、終点寄せ、もしくは均等揃えです。`justifyContent` のオプションは次の通りです。 `flex-start`, `center`, `flex-end`, `space-around`, and `space-between`.
+
+
+
+
+
+
 
 
 
